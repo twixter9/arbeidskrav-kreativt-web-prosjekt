@@ -27,31 +27,30 @@ body, html {
       margin-bottom: 0px;
       animation-name: bytteFarge;
       animation-duration: 3s;
-      animation-delay: 1.5s;
-    
+      animation-delay: 2.6s;
   }
-  
-   
-  
+
 img{
   background-color: black;
   margin-top: 60px;
   margin-left: 41%;
   width:310px;
    animation: spinImg 1.5s linear;
+   animation-delay: 1s;
 }
+
 img:hover{
    padding:10px;
    
 }
+
 a{
   animation-name:byttefargeCity;
   animation-duration:20s;
-  animation-delay:5s;
+  animation-delay:6s;
   color: black;
   text-decoration: none;
 }
-
 
 @keyframes bytteFarge {
   from{
@@ -73,7 +72,6 @@ a{
 @keyframes spinImg {
   0% {
     transform: rotate(0deg);
-    
   }
   50%{
     transform: rotate(180deg);
@@ -83,5 +81,5 @@ a{
   }
   100%{
     transform: rotate(360deg);
-    }
-          }
+  }
+}

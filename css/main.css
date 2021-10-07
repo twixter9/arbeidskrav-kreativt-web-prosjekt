@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+    font-family: sans-serif;
+    margin: 0;
+}
+.big-box {
+    width: 75%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    border-radius: 10px;
+}
+img {
+    width: 25%;
+    position: absolute;
+    top: -10%;
+}
+.text-box {
+    background-color: grey;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    z-index: 1;
+    font-size: 12px;
+    border: solid black 1px;
+    color: white;
+}
+h1 {
+    color: white;
+    text-align: center;
+    
+}

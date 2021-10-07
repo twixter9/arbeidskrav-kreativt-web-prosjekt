@@ -35,6 +35,7 @@ img{
   margin-top: 60px;
   margin-left: 41%;
   width:310px;
+  mix-blend-mode: multiply;
    animation: spinImg 1.5s linear;
    animation-delay: 1s;
 }

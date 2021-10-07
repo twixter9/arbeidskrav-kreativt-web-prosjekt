@@ -5,7 +5,7 @@ body, html {
   
   .bg {
     /* The image used */
-    background-image: url("../images/gothamcitybg.jpg");
+    background-image: url("../images/gothamcitybgUtenLogo.jpg");
   
     /* Full height */
     height: 100%;
@@ -17,11 +17,69 @@ body, html {
   }
 
   h1 {
+    background-color:black;
       text-align: center;
-      font-family: fantasy;
+      font-family:fantasy;
       font-size: 70px;
       border: 10px;
-      border-color: orange;
+      border-color: black;
       border-style:solid;
-     
+      margin-bottom: 0px;
+      animation-name: bytteFarge;
+      animation-duration: 3s;
+      animation-delay: 2.6s;
   }
+
+img{
+  background-color: black;
+  margin-top: 60px;
+  margin-left: 41%;
+  width:310px;
+   animation: spinImg 1.5s linear;
+   animation-delay: 1s;
+}
+
+img:hover{
+   padding:10px;
+   
+}
+
+a{
+  animation-name:byttefargeCity;
+  animation-duration:20s;
+  animation-delay:6s;
+  color: black;
+  text-decoration: none;
+}
+
+@keyframes bytteFarge {
+  from{
+    background-color: black;
+  }
+  to{
+    background-color: yellow;
+  }
+}
+
+@keyframes byttefargeCity {
+  from{
+    background-color: black;
+  }
+  to{
+    background-color: yellow;
+  }
+}
+@keyframes spinImg {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}

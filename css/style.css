@@ -30,28 +30,45 @@ body, html {
       animation-delay: 2.6s;
   }
 
-img{
+  a{
+    animation-name:byttefargeCity;
+    animation-duration:20s;
+    animation-delay:6s;
+    color: black;
+    text-decoration: none;
+  }
+
+#logo{
   background-color: black;
   margin-top: 60px;
   margin-left: 41%;
+  position: absolute;
   width:310px;
   mix-blend-mode: multiply;
    animation: spinImg 1.5s linear;
    animation-delay: 1s;
 }
 
-img:hover{
+#logo:hover{
    padding:10px;
-   
 }
 
-a{
-  animation-name:byttefargeCity;
-  animation-duration:20s;
-  animation-delay:6s;
-  color: black;
-  text-decoration: none;
+#batman{
+  position:fixed;
+  width: 300px;
+  margin-top: 400px;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;  
+  animation-delay: 4s;
 }
+
+@keyframes example {
+  0%   { left:0%;}
+  50%  { left:100%;}
+  100% { left:0px;}
+}
+
 
 @keyframes bytteFarge {
   from{

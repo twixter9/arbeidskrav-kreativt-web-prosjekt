@@ -21,6 +21,24 @@ img {
     position: absolute;
     top: -10%;
 }
+.jokerImg {
+    width: 28%;
+    position: absolute;
+    left: -20%;
+    top: 60%;
+    z-index:-1; 
+    
+}
+
+.baneImg {
+    width: 20%;
+    position: absolute;
+    right: -17%;
+    top: 62%;
+    z-index: -1;
+
+}
+
 .text-box {
     background-color: grey;
     border-radius: 10px;
@@ -31,8 +49,12 @@ img {
     border: solid black 1px;
     color: white;
 }
+
+
 h1 {
     color: white;
     text-align: center;
     
 }
+
+

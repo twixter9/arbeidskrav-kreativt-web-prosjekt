@@ -15,6 +15,8 @@ header {
     padding: 10px 10%;
     background-color: black;
     margin-bottom: 50px;
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
+
 }
 #nav-links {
     list-style: none;
@@ -70,8 +72,10 @@ header {
     margin: 20px;
     padding: 20px;
     font-size: 12px;
-    border: solid black 1px;
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
     color: white;
+    text-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
+;
     z-index: 3;
     position: relative;
 }

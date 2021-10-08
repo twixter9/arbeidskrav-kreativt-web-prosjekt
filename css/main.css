@@ -4,14 +4,24 @@ body {
     margin: 0;
     padding: 0;
 }
-#nav {
-    background-color: black;
-    text-align: center;
-}
-a {
+li, a {
     color: white;
     text-decoration: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10%;
+    background-color: black;
     margin-bottom: 50px;
+}
+#nav-links {
+    list-style: none;
+}
+#nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
 }
 .big-box {
     margin: auto;
@@ -19,8 +29,6 @@ a {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    border-radius: 10px;
-    z-index: 1;
 }
 #dark-knight-logo {
     width: 150px;
@@ -28,13 +36,15 @@ a {
 #batman-img {
     width: 25%;
     position: absolute;
-    top: -10%;
-    z-index: 1-
+    top: 5px;
+    z-index: 2
 }
 #gordon-img {
     position: absolute;
-    z-index: -1;
+    z-index: 2;
     width: 25%;
+    right: 200px;
+    top: 0px;
 }
 .text-box {
     background-color: grey;
@@ -44,9 +54,13 @@ a {
     font-size: 12px;
     border: solid black 1px;
     color: white;
+    z-index: 3;
+    position: relative;
 }
 h1 {
     color: white;
     text-align: center;
+    z-index: 3;
+    position: relative;
     
 }

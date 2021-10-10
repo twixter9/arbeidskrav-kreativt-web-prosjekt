@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
 }
-li, a {
+li,
+a {
     color: white;
     text-decoration: none;
 }
@@ -13,10 +14,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 10px 10%;
-    background-color: black;
-    margin-bottom: 50px;
+    background-color: black;    
     box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
-
 }
 #nav-links {
     list-style: none;
@@ -39,7 +38,7 @@ header {
     width: 20%;
     position: absolute;
     top: 5px;
-    z-index: 2
+    z-index: 2;
 }
 #gordon-img {
     position: absolute;
@@ -48,24 +47,20 @@ header {
     right: 200px;
     top: 0px;
 }
-.jokerImg {
+.joker-img {
     width: 15%;
     position: absolute;
     left: 0;
-    bottom: 0%;
-    z-index:-1; 
-    
+    bottom: 0;
+    z-index: -1;
 }
-
-.baneImg {
+.bane-img {
     width: 10%;
     position: absolute;
     right: 5%;
-    bottom: -5%;
+    bottom: 0;
     z-index: -1;
-
 }
-
 .text-box {
     background-color: grey;
     border-radius: 10px;
@@ -75,18 +70,13 @@ header {
     box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
     color: white;
     text-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
-;
     z-index: 3;
     position: relative;
 }
-
-
 h1 {
     color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     text-align: center;
     z-index: 3;
     position: relative;
-    
 }
-
-

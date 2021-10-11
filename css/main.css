@@ -4,11 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-li,
-a {
-    color: white;
-    text-decoration: none;
-}
 header {
     display: flex;
     align-items: center;
@@ -16,13 +11,6 @@ header {
     padding: 10px 10%;
     background-color: black;    
     box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
-}
-#nav-links {
-    list-style: none;
-}
-#nav-links li {
-    display: inline-block;
-    padding: 0px 20px;
 }
 .big-box {
     margin: auto;
@@ -47,14 +35,14 @@ header {
     right: 200px;
     top: 0px;
 }
-.joker-img {
+#joker-img {
     width: 15%;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
 }
-.bane-img {
+#bane-img {
     width: 10%;
     position: absolute;
     right: 5%;
@@ -69,7 +57,6 @@ header {
     font-size: 12px;
     box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
     color: white;
-    text-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
     z-index: 3;
     position: relative;
 }
